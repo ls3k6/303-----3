@@ -6,7 +6,6 @@ int main() {
   
   //1:
   cout << endl;
-  
   queue<int> q;
   q.push(1);
   q.push(2);
@@ -25,14 +24,14 @@ int main() {
     cout << s << " is NOT a palindrome" << endl;
   }
 
-  s = "proofoorp";
+  s = "Tattarrattat";
   if(palindromeCheck(s, 0, s.length()-1)){
     cout << s << " is a palindrome" << endl;
   }else{
     cout << s << " is NOT a palindrome" << endl;
   }
 
-  s = "obviouslyNotAPalindrome";
+  s = "surfeit";
   if(palindromeCheck(s, 0, s.length()-1)){
     cout << s << " is a palindrome" << endl;
   }else{
