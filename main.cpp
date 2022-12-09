@@ -17,14 +17,15 @@ int main() {
   queuePrint(q);
 
   //2:  
-  string s = "\nracecar";
+  cout << endl;
+  string s = "racecar";
   if(palindromeCheck(s, 0, s.length()-1)){
     cout << s << " is a palindrome" << endl;
   }else{
     cout << s << " is NOT a palindrome" << endl;
   }
 
-  s = "Tattarrattat";
+  s = "tattarrattat";
   if(palindromeCheck(s, 0, s.length()-1)){
     cout << s << " is a palindrome" << endl;
   }else{
