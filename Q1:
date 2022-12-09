@@ -1,1 +1,18 @@
-
+void move_to_rear(queue A)
+{
+if(!empty(A))
+{
+queue B;
+int first = A.front();
+while(1)
+{
+int temp = A.pop();
+if(temp == first) {A.push(temp); break;}
+B.push(temp);
+}
+while(!empty(B))
+{
+A.push(B.pop());
+}
+}
+}
