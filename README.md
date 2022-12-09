@@ -2,6 +2,6 @@
 
 assignment 3
 
+![image](https://user-images.githubusercontent.com/90429544/206813672-674f587b-d812-4b0e-9dbd-a3e35604b992.png)
 
-![image](https://user-images.githubusercontent.com/90429544/206813129-fc4e9b18-9bf8-4638-a9e9-60e978d38cb5.png)
 
